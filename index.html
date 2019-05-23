@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+<input id="num1" type="number"/>
+<input id="num2" type="number"/>
+<ul>
+    <li><input type="radio" name="operation" value="Addition">Addition</li>
+    <li><input type="radio" name="operation" value="Subtraction">Subtraction</li>
+    <li><input type="radio" name="operation" value="Multiplication">Multiplication</li>
+    <li><input type="radio" name="operation" value="Division">Division</li>
+</ul>
+
+<button onclick="onClick()">Calculate</button>
+
+<p>Answer is: <span id="answer"></span></p>
+
+<script src="script.js"></script>
+</body>
